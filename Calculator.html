@@ -3,7 +3,7 @@
   <head>
     <title>Calculator</title>
     <script>
-      function equal() {
+      function equalTo() {
         var exp = document.form1.textview.value;
         if (exp) {
           document.form1.textview.value = eval(exp)
@@ -103,7 +103,7 @@
             <td> <input class="btn" type="button" value="1" onclick="insert(1)"> </td>
             <td> <input class="btn" type="button" value="2" onclick="insert(2)"> </td>
             <td> <input class="btn" type="button" value="3" onclick="insert(3)"> </td>
-            <td rowspan=5> <input class="btn" type="button" value="=" style="height: 108px" onclick="equal()"> </td>
+            <td rowspan=5> <input class="btn" type="button" value="=" style="height: 108px" onclick="equalTo()"> </td>
           </tr>
 
           <tr>
